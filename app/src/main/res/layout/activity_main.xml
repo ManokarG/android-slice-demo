@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.mask.slicedemo.MainActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_arrow_decrease"
+            android:id="@+id/imgArrowDown"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tvTemperature"
+            android:layout_weight="1"
+            tools:text="Temperature : 30F"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@drawable/ic_arrow_increase"
+            android:id="@+id/imgArrowUp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

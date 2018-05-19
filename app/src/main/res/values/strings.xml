@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SliceDemo</string>
+    <string name="label_temperature">Temperature is %1$d \u2103</string>
+</resources>
